@@ -44,7 +44,7 @@ def csv_crossreference(names_list):
 
     for grabber in legit_grabbers:
         #print grabber, "will receive", legit_grabbers[grabber] * 0.00122, "XBL"
-        print "cleosm push action billionairet issue \'{\"to\":\""+grabber+"\",\"quantity\":\""+str("{0:.4f}".format(legit_grabbers[grabber] * 0.00122))+" XBL\",\"memo\":\"Congratulations! You are a Billionaire!\"}\' -p billionaire@active"
+        print "cleosm push action billionairet issue \'{\"to\":\""+grabber+"\",\"quantity\":\""+str("{0:.4f}".format(legit_grabbers[grabber] * 0.00122))+" XBL\",\"memo\":\"Congratulations! You are a Billionaire!\"}\' -p billionairet@active"
         print "cleosm push action billionairet setgrabbed [\""+grabber+"\"] -p billionairet@active"
         total += legit_grabbers[grabber] * 0.00122
 
